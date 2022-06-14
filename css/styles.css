@@ -1,0 +1,399 @@
+body{
+    font-family: "montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "montserrat";
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+
+#title .container-fluid{
+    padding: 3% 10% 7%
+}
+
+/* heading */
+
+.big-heading{
+    text-align: left;
+    color: white;
+    font-family: 'Montserrat';  
+    font-size: 3.2rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+
+
+
+
+.section-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* sections */
+
+.colored-section{
+    background-color: #8A2BE2;
+    color: #ffff;
+}
+
+.white-section{
+    background-color: #ffff;
+}
+
+#cta.colored-section{
+    background-color: #A155E8;
+}
+
+/* containers */
+
+.container-fluid{
+    padding: 7% 10%;
+}
+
+    /*   navbar   */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+    position: relative;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat";
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title img */
+
+.iphone{
+    width: 25%;
+    margin: 0 0 0 50px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 17%;
+
+}
+
+/* middle sec img */
+.face2{
+    width: 250px;
+}
+
+/* features */
+
+#features{
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    
+}
+
+.feature-title{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.about-title{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.about-hertz{
+    text-align: left;
+    padding: 10% 0 0 1%;
+}
+
+.about-hertz-iphone{
+    padding: 10% 0 0 1%;
+}
+
+
+/*icon */
+
+.icon{
+    color: #8A2BE2;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #A155E8    ;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #A155E8;
+}
+
+
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #A155E8;
+    padding-bottom: 3%;
+    z-index: 1;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-section{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.pricing-colm-3{
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.pricing-card-title{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.pricing-h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.button{
+    background-color: #8A2BE2;
+    color: #ffff;
+
+}
+
+.button:hover{
+    background-color: #A155E8;
+    color: #ffff;
+}
+
+.button1{
+    border-inline-color: #A155E8;
+    border-top-color: #A155E8;
+    border-bottom-color: #A155E8;
+    color: #A155E8;
+}
+
+.button1:hover{
+    background-color: #A155E8;
+    color: white;
+}
+
+
+
+/* media quary */
+
+@media (max-width: 992px){
+
+    #title{
+        text-align: center;
+    }
+    
+    .big-heading{
+        text-align: center;
+        font-size: 5rem;
+    
+    }
+
+    .pricing-card-title{
+        font-size: 2.5rem;
+    }
+
+    .pricing-h3{
+        font-size: 2.5rem;
+    }
+
+    .pricing-section{
+        font-size: 3rem;
+    }
+
+    .pricing-info{
+        font-size: xx-large;
+    }
+
+    .section-heading{
+        font-size: 3.5rem;
+        padding-bottom: 30px;
+    }
+
+    .section-heading-info{
+        font-size:xx-large;
+    }
+
+    .pricing-btn{
+        font-size: 40px;
+    }
+
+
+
+    #features {
+        z-index: -1;
+    }
+
+    #features .container-fluid{
+        margin-bottom: 250px;
+    }
+
+
+    .iphone{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+    .about-hertz{
+        text-align:justify;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+
+
+    .about-title{
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 2.5rem;
+    }
+
+    .navbar-brand{
+        font-size: 4rem;
+    }
+
+
+    .face2{
+        position:absolute;
+        left: 300px;
+        width: 40%;
+    }
+
+    .icon{
+        font-size: 100px;
+        padding: 20px;
+    }
+
+    .feature-title{
+        font-size: 4rem;
+    }
+
+    .feature-info{
+        font-size: 2rem;
+    }
+
+    .carousel-item {
+        font-size: 4rem;
+    }
+
+    .carousel{
+        box-shadow: 0px -20px 50px -15px black;
+    }
+
+    .press-logo{
+        width: 30%;
+    }
+
+    .cta-heading{
+        font-size: 50%;
+        padding-top: 80px;
+    }
+
+    .download-button{
+        font-size: 30px;
+    }
+
+    .social-icon{
+        font-size: 25px;
+    }
+
+    .copyright-sign{
+        font-size: x-large;
+    }
+
+    .navbar-toggler{
+        font-size: 4rem;
+    }
+
+    .nav-link{
+        font-size: 4rem;
+    }
+
+    .title-download-button{
+        font-size: 30px;
+    }
+}
+
+/* footer */ 
+
+
+.cta-heading{
+    color: #ffff;
+    font-family: "montserrat";
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 1.5;
+}
+
+
+.social-icon{
+    margin: 20px 10px;
+    width:30px;
+}
+
+
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #404040;
+}
+
+
